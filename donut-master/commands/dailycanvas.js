@@ -42,7 +42,7 @@ module.exports.run = async (client, message, args) => {
         ctx.closePath();
         ctx.clip();
     
-        const avatar = await Canvas.loadImage(user.displayAvatarURL({format: "jpg"}))
+        const avatar = await Canvas.loadImage(message.author.displayAvatarURL({format: "jpg"}))
         ctx.drawImage(avatar, 25, 25, 150, 150,)
     
         const final = new Discord.MessageAttachment(canvas.toBuffer(), "daily.png")
