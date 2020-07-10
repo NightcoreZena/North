@@ -50,6 +50,9 @@ module.exports.run = async (client, message, args) => {
     
 
         message.channel.send(final)
+
+        db.add(`money_${message.author.id}`, amount)
+        db.add(`daily_${message.author.id}`, Date.now())
     }
 }
 
