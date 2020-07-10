@@ -1,6 +1,7 @@
 const ms = require('parse-ms');
 const db = require('quick.db');
 const Canvas = require('canvas')
+const Discord = require('discord.js')
 
 let timeout = 86400000
 let amount = Math.floor(Math.random() * 300)
