@@ -32,8 +32,8 @@ module.exports.run = async (client, message, args) => {
 
     do {
         ctx.font = `${size3 -= 5}px sans-serif`;
-    } while (ctx.measureText(`You have ${money} dollars`).width > canvas.width - 225)
-    ctx.fillText(`You have ${money} dollars`,  200, 120)
+    } while (ctx.measureText(`You have $${money}`).width > canvas.width - 225)
+    ctx.fillText(`You have $${money}`,  200, 120)
 
 
     ctx.beginPath();
