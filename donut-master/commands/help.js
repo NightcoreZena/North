@@ -7,7 +7,11 @@ module.exports.run = async (client, message, args) => {
     .setTitle(`Help Menu`)
     .setDescription(":heavy_check_mark: ?help Global | Global Commands.\n:musical_note: ?help Music | Music Commands.\n:tools: ?Help Moderation | Moderator Commands.\n:information_source: ?Help Info | Info commands")
 
-message.channel.send(embed)
+message.channel.send(embed).then(msg => {
+
+    await msg.react("🔺")
+    await msg.react("🔻")
+})
 
 
 
