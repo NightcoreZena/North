@@ -1,0 +1,36 @@
+{
+  "name": "northvpn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "avconv": "3.1.0",
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "discord.js": "^12.2.0",
+    "dyno": "^1.4.1",
+    "ffmpeg": "0.0.4",
+    "glob": "^7.1.6",
+    "moment": "^2.27.0",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "opusscript": "^0.0.7",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "python": "0.0.4",
+    "quick.db": "^7.1.1",
+    "regex": "^0.1.1",
+    "simple-youtube-api": "^5.2.1",
+    "twemoji-parser": "^13.0.0",
+    "util": "^0.12.3",
+    "ytdl-core": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "North",
+  "license": "ISC"
+}
