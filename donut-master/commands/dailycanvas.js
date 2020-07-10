@@ -29,8 +29,8 @@ module.exports.run = async (client, message, args) => {
     
         do {
             ctx.font = `${size1 -= 5}px sans-serif`;
-        } while (ctx.measureText("Daily Rewards ⭐").width > canvas.width - 225)
-        ctx.fillText("Daily Rewards ⭐", 200, 65)
+        } while (ctx.measureText("Daily Rewards").width > canvas.width - 225)
+        ctx.fillText("Daily Rewards", 200, 65)
     
         do {
             ctx.font = `${size3 -= 5}px sans-serif`;
