@@ -9,8 +9,8 @@ module.exports.run = async (client, message, args) => {
 
 message.channel.send(embed).then(msg => {
 
-    await msg.react("🔺")
-    await msg.react("🔻")
+    msg.react("🔺")
+    msg.react("🔻")
 })
 
 
