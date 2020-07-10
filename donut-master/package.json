@@ -20,7 +20,7 @@
     "path": "^0.12.7",
     "python": "0.0.4",
     "quick.db": "^7.1.1",
-    "regex": "^0.1.1",
+    "regex": "0.1.1",
     "simple-youtube-api": "^5.2.1",
     "twemoji-parser": "^13.0.0",
     "util": "^0.12.3",
